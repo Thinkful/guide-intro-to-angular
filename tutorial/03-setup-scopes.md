@@ -63,6 +63,8 @@ We'll explain what `{{title}}` and `ng-model="title"` is in a minute.
 
 See how the function name is the same as the `ng-controller's` value?  Angular will be looking for a function with this name in our JavaScript so that it can act as a Controller.  Nifty stuff!
 
+Note: As of Angular 1.3.0 this behavior has been removed and global constructors are not working anymore and will result in errors. [Changelog](https://github.com/angular/angular.js/blob/master/CHANGELOG.md#130-beta15-unbelievable-advancement-2014-07-11)
+
 Below's the final version:
 
 ```html
