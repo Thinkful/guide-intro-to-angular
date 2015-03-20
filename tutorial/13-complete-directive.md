@@ -109,6 +109,7 @@ Here's the complete HTML template (view) for the directive:
       </div>
     </li>
   </ul>
+</div>
 ```
 
 Notice the use of built-in angular directives such as `ng-hide`, `ng-show`, `ng-click`, `ng-repeat` and `ng-model`. We won't go into much detail about these directives as each can be quite a big topic but you can read about them [here](https://docs.angularjs.org/api/ng/directive).
